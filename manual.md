@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Manual
-subtitle: Como utilizar o aplicativo?
+subtitle: Como utilizar o utilitário?
 ---
 
 ### Recursos:
