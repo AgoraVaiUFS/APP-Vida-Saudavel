@@ -14,9 +14,9 @@ author: Agora Vai!
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  Sobre nós: "aboutme"
   Manual: "manual"
   Relatório Técnico: "relatorio"
+  Sobre nós: "aboutme"
   #Resources:
     #- Beautiful Jekyll: "https://beautifuljekyll.com"
     #- Learn markdown: "https://www.markdowntutorial.com/"
