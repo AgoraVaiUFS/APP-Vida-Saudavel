@@ -12,7 +12,7 @@ O banco de dados foi extraído do site “Tabela Brasileira de Composição de A
 
 A **Lista Simplesmente encadeada** foi utilizada na funcionalidade relacionada ao acompanhamento diário de água do usuário. Considerando que a quantidade de água só seria adicionada ao longo do dia, ou seja, não é possível regredir a quantidade de água ingerida naquele dia, foi utilizada essa estrutura para auxiliar o somatório de água.
 
-A única possibilidade além de adicionar valores relacionados a quantidade de água seria recomeçar a contagem considerando o início de um novo dia, ou novo período que o usuário deseja acompanhar. Para isso, foi pensada a implementação da função *"Clear()"* que limpa os valores adicionados na LSE. Dentro da classe LSE, está presente uma função que passa e demonstra os elementos presentes em forma de Array (Função *"Show_Array"*). Através dessa função, facilmente é possível somar os elementos nela presentes.
+A única possibilidade além de adicionar valores relacionados a quantidade de água seria recomeçar a contagem considerando o início de um novo dia, ou novo período que o usuário deseja acompanhar. Para isso, foi pensada a implementação da função *"Clear()"* que limpa os valores adicionados na LSE. Dentro da classe LSE, também está presente a função *"SomaLSE"*, que soma o conteúdo presente na LSE.
 
 Para a manipulação do banco de dados foi utilizada a TAD **Trie**. Na trie, cada nó possui R ponteiros, que corresponde ao tamanho do alfabeto da mesma. Além disso, cada nó possui um caractere e, quando tivermos uma palavra formada, teremos um valor associado, neste caso, o valor será às informações nutricionais do Alimento.
 
