@@ -5,11 +5,11 @@ subtitle: Como funciona o utilitário?
 ---
 
 ### Recursos
--   Análise nutricional baseado na refeição: através do fornecimento dos alimentos ingeridos na refeição e suas respectivas quantidades, seja informado a respeito dos valores nutricionais (dos compostos orgânicos e inorgânicos) e a energia em calorias dos alimentos ingeridos.
+-   **Análise nutricional baseado na refeição:** através do fornecimento dos alimentos ingeridos na refeição e suas respectivas quantidades, seja informado a respeito dos valores nutricionais (dos compostos orgânicos e inorgânicos) e a energia em calorias dos alimentos ingeridos.
 
--   IMC e taxa metabólica basal: A partir do seu peso, altura e sexo conheça o seu IMC e a classificação do seu peso a partir desse critério e também a sua taxa metabólica basal. Além disso, o “Agora Vai - Vida Saudável” sugere ainda a quantidade de calorias a serem consumidas por dia e a quantidade de macronutrientes (carboidratos, proteínas e lipídios) em gramas.
+-   **IMC e taxa metabólica basal:** A partir do seu peso, altura e sexo conheça o seu IMC e a classificação do seu peso a partir desse critério e também a sua taxa metabólica basal. Além disso, o **“Agora Vai - Vida Saudável”** sugere ainda a quantidade de calorias a serem consumidas por dia e a quantidade de macronutrientes (carboidratos, proteínas e lipídios) em gramas.
 
--   Acompanhamento da quantidade de água ingerida diariamente: O utilitário informa a quantidade de água ideal a ser ingerida no dia a partir do seu peso e auxilia na contagem e acompanhamento da água bebida em um intervalo de tempo.
+-   **Acompanhamento da quantidade de água ingerida diariamente:** O utilitário informa a quantidade de água ideal a ser ingerida no dia a partir do seu peso e auxilia na contagem e acompanhamento da água bebida em um intervalo de tempo.
 
 ### Modo de usar:
 -   Ao iniciar a utilização do utilitário, preencha os campos indicados com a sua altura, peso, idade, sexo, sua taxa de atividade diária e qual o seu objetivo com relação ao seu peso.
