@@ -20,7 +20,7 @@ Seguindo essa linha de raciocínio, no utilitário, a Trie foi de grande import�
 
 Por fim, futuramente tem-se o objetivo implementar novas funcionalidades, como uma barra de progresso do consumo de Carboidratos, Proteínas e Lipídios que o usuário precisa ingerir; Registrar os horários nos quais beberam água; e, como dito anteriormente, aumentar o banco de dados com mais Alimentos. Dessa forma, melhorando progressivamente o utilitário. Todos os integrantes do grupo manifestaram o interesse em dar continuidade no desenvolvimento do aplicativo.
 
-### Vídeo explicativo
+### Vídeo explicativo 
 <p align="center">
  <iframe src="https://drive.google.com/file/d/1HcAFNc3DBmbKPTjVxmx9y5P3aHePnCPT/view?usp=sharing" width="636" height="360" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
 </p>
