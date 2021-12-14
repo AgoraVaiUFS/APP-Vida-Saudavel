@@ -8,7 +8,3 @@ title: Visão Geral
 Ficou curioso? [Teste agora mesmo!](https://purple-rain.josedhonatas.repl.co)
 
 Para mais informações consulte a página de **Manual** e mais detalhes técnicos podem ser encontrados no **Relatório Técnico**. Além disso, qualquer dúvida ou sugestão envie-nos um email! Visite nossa página no [Github](https://github.com/AgoraVaiUFS/Vida-Saudavel) para ter acesso ao código desse utilitário.
-
-<p align="center">
- <iframe src="" width="636" height="360" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
-</p>
