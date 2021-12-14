@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="estilo2.css" rel="stylesheet" type="text/css"/>
+    <link href="agua_barra.css" rel="stylesheet" type="text/css"/>
+    <title>Agora Vai | Vida Saudável</title>
+    <link rel="icon" href="./imagem/agora-vai.jpg" type="image/x-icon"/>
+
+</head>
+
+<body onLoad= "adiciona_agua(1);">
+  <script src = "/.lse.js"></script>
+
+  <div class = "box">
+        <fieldset>
+            <legend><b> Água </b></legend>
+            <br>
+            <div class = "inputBox">
+                <img src = "./imagem/bebendo_agua.gif" id = "copo_agua">
+                <script>
+                  var litros = localStorage.getItem("agua_l");
+                  document.write("<hr>")
+                  document.write(litros + "<br> ")
+                  document.write("<hr>")
+                  //document.getElementById("agua").innerHTML=localStorage.getItem("agua_l");
+                </script>
+              <br>
+              <div class = "_agua">
+                <div class="circulo">
+                  <div class="barra">
+                    <svg>
+                      <circle cx="70" cy="70" r="70"> </circle>
+                      <circle cx="70" cy="70" r="70"> </circle>
+                    </svg>
+                    <div class="_qtde">
+                      <h3 class="quantidade">0%</h3>
+                    </div>
+                    <script src = "lse.js"></script>
+                  </div>
+                </div>
+              </div>
+                <br>
+              <div style="text-align: center;">
+              <input type = "button" onclick = "adiciona_agua(0)" class = "botoes2" value = "200 ml"/>
+              <input type = "button" onclick = "limpar()" class = "botoes2" value = "limpar"/>
+            </div>
+            
+          </div>
+          <br><br><br>
+        <input type = "button" onclick= "location.href='pag1.html'" value = "Início" class = "botoes"/> 
+        <input type = "button" onclick= "location.href='pag3.html'" value = "Comida" class = "botoes"/> 
+        </fieldset>
+
+ 
+  </div>
+</body>
+</html>

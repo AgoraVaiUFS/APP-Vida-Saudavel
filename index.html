@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Agora Vai | Vida Saudável</title>
+    <link href="estilo.css" rel="stylesheet" type="text/css"/>
+    <link rel="icon" href="./imagem/agora-vai.jpg" type="image/x-icon"/>
+</head>
+<body>
+    <div class = "box">
+        <form action = "./pag1.html" method = "post">
+          <fieldset>
+              <legend><b> Agora Vai </b></legend>
+              <br>
+              <div class = "inputBox">
+                  <input type = "text" name = "altura" id = "altura" class = "inputUser" required>
+                  <label for = "nome" class = "labelVisu" >Altura (cm) </label>
+                  <br><br>
+                  <input type = "text" name = "peso" id = "peso" class = "inputUser" required>
+                  <label for = "peso" class = "labelVisu">Peso (kg) </label>
+                  <br><br>
+                  <input type = "text" name = "idade" id = "idade" class = "inputUser" required>
+                  <label for = "idade" class = "labelVisu"> Idade </label>
+                  <br><br>
+                  <p>Sexo:</p>
+                  <input type="radio" id="genero" value="feminino" required>
+                  <label for="feminino">Feminino</label>
+                  <input type="radio" id="genero" value="masculino" required>
+                  <label for="masculino">Masculino</label>
+                  <br><br>
+                  <p> Atividade </p>
+                  <select name = "atividade" id = "atividade" class = "selectUser">
+                      <option value = "nada"> </option>
+                      <option value = "baixo"> Baixo </option>
+                      <option value = "moderado"> Moderado </option>
+                      <option value = "alto"> Alto </option>
+                      <option value = "muito_alto"> Muito Alto </option>
+                  </select>
+                  <br> <br>
+                  <p> Objetivo </p>
+                  <select name = "objetivo" id = "objetivo" class = "selectUser">
+                      <option value = "nada"> </option>
+                      <option value = "perder_peso"> Perder peso </option>
+                      <option value = "manter_peso"> Manter peso </option>
+                      <option value = "aumentar_peso"> Aumentar Peso </option>
+                  </select>
+                  <br> <br>
+                  <button onclick ="receberDados()" id = "prosseguir" name = "prosseguir"/> Enviar </button>
+                  <script src = "acao.js"></script>
+              </div>
+          </fieldset> 
+        </form>
+</body>
+</html>

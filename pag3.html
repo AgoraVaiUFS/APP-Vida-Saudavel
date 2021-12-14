@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="estilo2.css" rel="stylesheet" type="text/css" />
+	<title>Agora Vai | Vida Saudável</title>
+  <link rel="icon" href="./imagem/agora-vai.jpg" type="image/x-icon"/>
+
+</head>
+
+<body>
+  <script type="module" src="./data/banco_de_dados.mjs"></script>
+  <script type="module" src="./trie.mjs"></script>
+	<script src="acao2.js"> </script>
+	<div class="box">
+		<fieldset>
+			<div class="inputBox">
+				<input type = "text" class = "inputUser3" list = "datalist" onkeyup= "show(this.value)" id = "comidinha">  
+        <datalist id = "datalist"></datalist> 
+        <div id = "comida_atual">
+          <script> 
+            var nome = localStorage.getItem("comida");
+            document.write(nome + "<br >");
+          </script>
+        </div>
+        <img src = "./imagem/salada.gif" id = "copo_agua"> 
+        <br>
+        <input type = "button" onclick = "comida();location.href='pag3.html'" class = "botao_redondo" value = "✔"/>
+        <br>
+        <div class = "rolagem">
+          <script>
+            function comida(){
+            let comida = document.getElementById("comidinha").value;
+            localStorage.setItem("comida", comida);
+            }
+          </script>
+          <br>
+          <script>
+            var dados = JSON.parse(localStorage.getItem("Data"));
+            for(i = 0; i<36; i++){
+              document.write(dados[i] + "<br >");
+              document.write("<hr>")
+            }
+          </script>
+        </div>
+        <input type = "button" onclick= "location.href='pag1.html'" value = "Início" class = "botoes"/> 
+        <input type = "button" onclick = "location.href='pag3.html'" class = "botoes" value="Pesquisar"/>
+
+      </div>
+    </fieldset>
+  </div>
+
+  
+</body>
+</html>

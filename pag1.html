@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Agora Vai | Vida Saudável</title>
+    <link rel="icon" href="./imagem/agora-vai.jpg" type="image/x-icon"/>
+    <link href="estilo2.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <script>
+    var dados = [];
+    for(i = 0; i<36; i++){
+      dados[i] = "_-_";
+    }
+    localStorage.setItem("Data", JSON.stringify(dados));
+  </script>
+  <br>
+<script>
+  localStorage.setItem("comida", "");
+</script>
+  <div class = "box">
+    <fieldset>
+      <legend><b> Agora Vai </b></legend>
+      <img id = "copo_agua" src = "./imagem/calorias_inicio.gif">
+          <script>
+            var dados = JSON.parse(localStorage.getItem("DataUsuario"));
+
+            for(i = 0; i<dados.length; i++){
+              document.write(dados[i] + "<br >");
+              document.write("<hr>")
+            }
+          </script>
+
+        <p><span id = "teste3"></span></p>
+        <input type = "button" onclick= "location.href='pag2.html'" value = "Água" class = "botoes"/> 
+        <input type = "button" onclick= "location.href='pag3.html'" value = "Comida" class = "botoes"/> 
+    </fieldset>
+  </div> 
+</body>
+</html>
