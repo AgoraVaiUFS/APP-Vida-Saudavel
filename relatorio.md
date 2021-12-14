@@ -22,5 +22,5 @@ Por fim, futuramente tem-se o objetivo implementar novas funcionalidades, como u
 
 ### Vídeo explicativo 
 <p align="center">
- <iframe src="https://drive.google.com/file/d/1HcAFNc3DBmbKPTjVxmx9y5P3aHePnCPT/view?usp=sharing" width="636" height="360" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+ <iframe src="https://drive.google.com/file/d/1HcAFNc3DBmbKPTjVxmx9y5P3aHePnCPT/preview" width="636" height="360" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
 </p>
