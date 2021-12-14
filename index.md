@@ -13,5 +13,6 @@ Para mais informações consulte a página de manual e mais detalhes técnicos p
 ## TESTE
 
 <p aling="center">
- <iframe src="https://drive.google.com/file/d/1QcJiIx83cbR1bkNuiDkVEZwjCJlEA8jW/preview" width="640" height="480" allow="autoplay"></iframe>
+ <iframe src="https://drive.google.com/file/d/1QcJiIx83cbR1bkNuiDkVEZwjCJlEA8jW/preview" allow="autoplay"></iframe>
+ <iframe allowfullscreen="allowfullscreen" src="https://drive.google.com/file/d/1QcJiIx83cbR1bkNuiDkVEZwjCJlEA8jW/preview" ></iframe>
 </p>
