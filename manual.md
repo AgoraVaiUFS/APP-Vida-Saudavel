@@ -27,3 +27,8 @@ subtitle: Como funciona o utilitário?
 > **Importante:** Os valores nutricionais devolvidos pelo utilitário correspondem a uma porção de 100g do respectivo alimento.
 
 -   Para retornar a tela com o relatório das suas informações, selecione a opção “Início”.
+
+### Vídeo demonstrativo
+<p align="center">
+ <iframe src="https://drive.google.com/file/d/1UvRNwe3zt_9srWCUsHhdMVTM0w1W_KDK/preview" width="636" height="360" allow="autoplay" allowfullscreen="allowfullscreen"></iframe>
+</p>
